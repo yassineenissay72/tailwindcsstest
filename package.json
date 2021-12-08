@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcsstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i src/style.css -o public/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineenissay72/tailwindcsstest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassineenissay72/tailwindcsstest/issues"
+  },
+  "homepage": "https://github.com/yassineenissay72/tailwindcsstest#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}

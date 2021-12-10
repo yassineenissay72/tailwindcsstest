@@ -2,3 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply text-white rounded-lg px-4 py-2 font-semibold shadow-md hover:scale-105 mr-6 
+}
+
+.btn-green {
+    @apply bg-green-500 hover:bg-green-700
+}
+
+.btn-blue {
+    @apply bg-indigo-500 hover:bg-indigo-700
+}
+
+@layer base {
+    a { @apply text-white bg-green-400 underline text-xl }
+}

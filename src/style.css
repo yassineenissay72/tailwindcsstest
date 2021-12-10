@@ -1,5 +1,4 @@
-body {
-    background-color: goldenrod;
-    color:purple;
-    padding: 200px;
-}
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
